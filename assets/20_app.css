@@ -1,0 +1,30 @@
+#inputs-table-wrap {
+    height: 30vh;
+    overflow-y: scroll;
+}
+
+#inputs-table {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#roc-graph {
+    height: 50vh;
+}
+
+#add-row-button {
+    margin: 1rem auto;
+    display: block;
+}
+
+#status-wrap {
+    padding: .75rem 1.25rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    background-color: #e2e3e5;
+    border-color: #d6d8db;
+}
+
+.github-button {
+    font-size: 1.2rem;
+}
