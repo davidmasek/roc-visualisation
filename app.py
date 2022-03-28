@@ -18,7 +18,7 @@ external_stylesheets = [
 
 app = Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
-DEBUG = os.environ.get('ENV').lower().startswith('dev')
+DEBUG = os.environ.get('ENV', '').lower().startswith('dev')
 
 # styles are automatically loaded from `assets` directory
 app.layout = html.Div([
