@@ -216,7 +216,6 @@ def inputs_graph(y, y_score):
     thresholds = thresholds[thresholds < 1]
     thresholds = np.concatenate([[1], thresholds, [0]])
 
-    print(thresholds, tpr)
     fig.add_trace(go.Scatter(
         x=thresholds,
         y=fpr,
